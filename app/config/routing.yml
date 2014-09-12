@@ -1,0 +1,4 @@
+zither_store:
+    resource: "@ZitherStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+

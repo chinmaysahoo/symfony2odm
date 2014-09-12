@@ -1,0 +1,15 @@
+zither_store_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ZitherStoreBundle:Default:index }
+
+zither_store_register:
+    path:     /register
+    defaults: { _controller: ZitherStoreBundle:Default:register }
+
+zither_store_create:
+    path:     /create
+    defaults: { _controller: ZitherStoreBundle:Default:create }
+
+zither_store_success:
+    path:     /success
+    defaults: { _controller: ZitherStoreBundle:Default:success }
